@@ -14,7 +14,7 @@ The `CustomCircuit` demonstrates the use of logic gates to compute an output sig
 - **Intermediate Signals**: The circuit has two intermediate signals, `X` and `Y`, which are the outputs of the `AND` and `NOT` gates, respectively.
 - **Output**: The final output signal, `Q`, is computed using the `OR` gate with inputs from the intermediate signals.
 ## Quick Start
-Compile the Multiplier2() circuit and verify it against a smart contract verifier
+Compile the CustomCircuit() circuit and verify it against a smart contract verifier
 
 ```
 pragma circom 2.0.0;
@@ -45,7 +45,7 @@ This will generate the **out** file with circuit intermediaries and geneate the 
    ```
    npx hardhat run scripts/deploy.ts
    ```
-   Deploying on Mumbai Test Network
+   Deploying on Amoy Test Network
    ```
    npx hardhat run scripts/deploy.ts --network amoy
    ```
