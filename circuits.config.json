@@ -1,0 +1,13 @@
+[
+  {
+    "name": "CustomCircuit",
+    "protocol": "groth16",
+    "circuit": "CustomCircuit/circuit.circom",
+    "input": "CustomCircuit/input.json",
+    "wasm": "CustomCircuit/out/circuit.wasm",
+    "zkey": "CustomCircuit/out/CustomCircuit.zkey",
+    "vkey": "CustomCircuit/out/CustomCircuit.vkey",
+    "r1cs": "CustomCircuit/out/CustomCircuit.r1cs",
+    "beacon": "0102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f"
+  }
+]
